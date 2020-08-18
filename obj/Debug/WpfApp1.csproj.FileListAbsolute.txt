@@ -1,0 +1,15 @@
+D:\Институт\Recursive\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Институт\Recursive\obj\Debug\MainWindow.g.cs
+D:\Институт\Recursive\obj\Debug\App.g.cs
+D:\Институт\Recursive\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Институт\Recursive\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Институт\Recursive\bin\Debug\WpfApp1.exe.config
+D:\Институт\Recursive\bin\Debug\WpfApp1.exe
+D:\Институт\Recursive\bin\Debug\WpfApp1.pdb
+D:\Институт\Recursive\obj\Debug\MainWindow.baml
+D:\Институт\Recursive\obj\Debug\WpfApp1.g.resources
+D:\Институт\Recursive\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Институт\Recursive\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Институт\Recursive\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Институт\Recursive\obj\Debug\WpfApp1.exe
+D:\Институт\Recursive\obj\Debug\WpfApp1.pdb
