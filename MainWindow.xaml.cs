@@ -21,7 +21,7 @@ namespace WpfApp1
     public partial class MainWindow : Window
     {
 
-        static string[] massive_02 = new string[] { "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17" }; //massive  
+        static string[] massive_02 = new string[] { ".01", ".02", ".03", ".04", ".05", ".06", ".07", ".08", ".09", ".10", ".11", ".12", ".13", ".14", ".15", ".16", ".17" }; //massive  
         static int count = massive_02.Count();
         FileWorker worker = new FileWorker("Test.txt");
 
@@ -54,20 +54,19 @@ namespace WpfApp1
 
         void Function(TreeViewItem copy, string test)
         {
-            string ss = test + ".";
-
             foreach (KeyValuePair<string, string> keyValue in codes)
             {
                 for (int j = 0; j < count; j++)
                 {
-                    if (keyValue.Key == ss + massive_02[j])
+
+                    if (keyValue.Key == test + massive_02[j])
                     {
                         var subItem1 = new TreeViewItem();
                         subItem1.Header = keyValue.Key + " " + keyValue.Value;
 
                         copy.Items.Add(subItem1);
 
-                        Function(subItem1, ss + massive_02[j]);
+                        Function(subItem1, keyValue.Key);
                     }
                 }
             }
