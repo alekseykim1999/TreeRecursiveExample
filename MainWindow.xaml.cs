@@ -30,10 +30,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-
-
             codes = worker.Get_Dictionary(); //получить все коды
-
             createTree();
         }
 
@@ -54,7 +51,7 @@ namespace WpfApp1
 
         void Function(TreeViewItem copy, string test)
         {
-            foreach (KeyValuePair<string, string> keyValue in codes)
+            foreach (KeyValuePair<string, string> keyValue in codes.Where(a => a.Key.Contains(".")))
             {
                 for (int j = 0; j < count; j++)
                 {
